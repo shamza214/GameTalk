@@ -1,0 +1,38 @@
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+
+}
+
+.nav-link.active {
+    font-weight: bold;
+    
+}
+
+
+.logout-button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
